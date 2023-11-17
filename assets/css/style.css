@@ -1552,7 +1552,7 @@ p {
 }
 
 .card-media:hover {
-  box-shadow: 0 5px 14px rgba(0, 0, 0, .2);
+  box-shadow: 0 5px 14px rgba(12, 10, 10, 0.2);
 }
 
 .card-media-object-container {
@@ -1566,10 +1566,11 @@ p {
 .card-media-object {
   background-position: center center;
   background-size: cover;
-  /* background-size: contain; */
+  background-size: contain;
   background-repeat: no-repeat;
   height: 100%;
-  object-fit:contain;
+  /* width: 100%; */
+  object-fit:cover;
 }
 
 .card-media-object:after {
@@ -1586,9 +1587,9 @@ p {
 }
 
 .card-media:hover .card-media-object:after {
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 52%, rgba(0,0,0,0.4) 100%);
+  /* background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 52%, rgba(0,0,0,0.4) 100%);
   background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 52%,rgba(0,0,0,0.4) 100%);
-  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 52%,rgba(0,0,0,0.4) 100%);
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 52%,rgba(0,0,0,0.4) 100%); */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
   opacity: 1;
 }
@@ -1721,6 +1722,9 @@ p {
   color: #41C1F2;
   text-decoration: none;
 }
+/* .card-media-object:hover{
+  background-color: #000;
+} */
 
 /* ////// teams  */
 
