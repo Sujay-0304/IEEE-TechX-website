@@ -705,7 +705,10 @@ p {
   font-size: 18px;
   font-weight: 600;
   color: #1b273d;
-  margin-top: 45px; }
+  margin-top: 45px;
+  text-align: auto;
+  text-justify: inter-word;
+ }
   .about-content .date span {
     font-size: 30px;
     color: #1863ff;
@@ -716,7 +719,7 @@ p {
       content: '';
       width: 55px;
       height: 55px;
-      border: 6px solid rgba(24, 99, 255, 0.18);
+      border: 6px solid rgba(255, 255, 255, 0.18);
       top: -18px;
       left: 0; }
 
